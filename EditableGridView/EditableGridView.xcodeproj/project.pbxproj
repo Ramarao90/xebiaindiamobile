@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9719B6A3135572B400C52421 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719B6A2135572B400C52421 /* UIKit.framework */; };
+		9719B6A5135572B400C52421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719B6A4135572B400C52421 /* Foundation.framework */; };
+		9719B6A7135572B400C52421 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719B6A6135572B400C52421 /* CoreGraphics.framework */; };
+		9719B6AD135572B400C52421 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6AB135572B400C52421 /* InfoPlist.strings */; };
+		9719B6B0135572B400C52421 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719B6AF135572B400C52421 /* main.m */; };
+		9719B6B3135572B400C52421 /* EditableGridViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719B6B2135572B400C52421 /* EditableGridViewAppDelegate.m */; };
+		9719B6B6135572B400C52421 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6B4135572B400C52421 /* MainWindow.xib */; };
+		9719B6B9135572B400C52421 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719B6B8135572B400C52421 /* RootViewController.m */; };
+		9719B6BC135572B400C52421 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6BA135572B400C52421 /* RootViewController.xib */; };
+		9719B6C5135572FC00C52421 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719B6C3135572FC00C52421 /* CustomTableViewCell.m */; };
+		9719B6C6135572FC00C52421 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6C4135572FC00C52421 /* CustomTableViewCell.xib */; };
+		9719B6D1135578E900C52421 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6C8135578E900C52421 /* burger.png */; };
+		9719B6D2135578E900C52421 /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6C9135578E900C52421 /* coffee.png */; };
+		9719B6D3135578E900C52421 /* colddrink.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6CA135578E900C52421 /* colddrink.png */; };
+		9719B6D4135578E900C52421 /* cookies.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6CB135578E900C52421 /* cookies.png */; };
+		9719B6D5135578E900C52421 /* juice.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6CC135578E900C52421 /* juice.png */; };
+		9719B6D6135578E900C52421 /* liquor.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6CD135578E900C52421 /* liquor.png */; };
+		9719B6D7135578E900C52421 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6CE135578E900C52421 /* pizza.png */; };
+		9719B6D8135578E900C52421 /* tea.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6CF135578E900C52421 /* tea.png */; };
+		9719B6D9135578E900C52421 /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6D0135578E900C52421 /* water.png */; };
+		9719B6DB1356AF6200C52421 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9719B6DA1356AF6200C52421 /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9719B69E135572B400C52421 /* EditableGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditableGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9719B6A2135572B400C52421 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9719B6A4135572B400C52421 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9719B6A6135572B400C52421 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9719B6AA135572B400C52421 /* EditableGridView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EditableGridView-Info.plist"; sourceTree = "<group>"; };
+		9719B6AC135572B400C52421 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9719B6AE135572B400C52421 /* EditableGridView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EditableGridView-Prefix.pch"; sourceTree = "<group>"; };
+		9719B6AF135572B400C52421 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9719B6B1135572B400C52421 /* EditableGridViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditableGridViewAppDelegate.h; sourceTree = "<group>"; };
+		9719B6B2135572B400C52421 /* EditableGridViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditableGridViewAppDelegate.m; sourceTree = "<group>"; };
+		9719B6B5135572B400C52421 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9719B6B7135572B400C52421 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9719B6B8135572B400C52421 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9719B6BB135572B400C52421 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		9719B6C2135572FC00C52421 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		9719B6C3135572FC00C52421 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		9719B6C4135572FC00C52421 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		9719B6C8135578E900C52421 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		9719B6C9135578E900C52421 /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		9719B6CA135578E900C52421 /* colddrink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colddrink.png; sourceTree = "<group>"; };
+		9719B6CB135578E900C52421 /* cookies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cookies.png; sourceTree = "<group>"; };
+		9719B6CC135578E900C52421 /* juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juice.png; sourceTree = "<group>"; };
+		9719B6CD135578E900C52421 /* liquor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liquor.png; sourceTree = "<group>"; };
+		9719B6CE135578E900C52421 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		9719B6CF135578E900C52421 /* tea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tea.png; sourceTree = "<group>"; };
+		9719B6D0135578E900C52421 /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		9719B6DA1356AF6200C52421 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9719B69B135572B400C52421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9719B6A3135572B400C52421 /* UIKit.framework in Frameworks */,
+				9719B6A5135572B400C52421 /* Foundation.framework in Frameworks */,
+				9719B6A7135572B400C52421 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9719B693135572B400C52421 = {
+			isa = PBXGroup;
+			children = (
+				9719B6C7135578E900C52421 /* images */,
+				9719B6A8135572B400C52421 /* EditableGridView */,
+				9719B6A1135572B400C52421 /* Frameworks */,
+				9719B69F135572B400C52421 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9719B69F135572B400C52421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9719B69E135572B400C52421 /* EditableGridView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9719B6A1135572B400C52421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9719B6A2135572B400C52421 /* UIKit.framework */,
+				9719B6A4135572B400C52421 /* Foundation.framework */,
+				9719B6A6135572B400C52421 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9719B6A8135572B400C52421 /* EditableGridView */ = {
+			isa = PBXGroup;
+			children = (
+				9719B6B1135572B400C52421 /* EditableGridViewAppDelegate.h */,
+				9719B6C2135572FC00C52421 /* CustomTableViewCell.h */,
+				9719B6C3135572FC00C52421 /* CustomTableViewCell.m */,
+				9719B6C4135572FC00C52421 /* CustomTableViewCell.xib */,
+				9719B6B2135572B400C52421 /* EditableGridViewAppDelegate.m */,
+				9719B6B4135572B400C52421 /* MainWindow.xib */,
+				9719B6B7135572B400C52421 /* RootViewController.h */,
+				9719B6B8135572B400C52421 /* RootViewController.m */,
+				9719B6BA135572B400C52421 /* RootViewController.xib */,
+				9719B6A9135572B400C52421 /* Supporting Files */,
+			);
+			path = EditableGridView;
+			sourceTree = "<group>";
+		};
+		9719B6A9135572B400C52421 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9719B6AA135572B400C52421 /* EditableGridView-Info.plist */,
+				9719B6AB135572B400C52421 /* InfoPlist.strings */,
+				9719B6AE135572B400C52421 /* EditableGridView-Prefix.pch */,
+				9719B6AF135572B400C52421 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9719B6C7135578E900C52421 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9719B6DA1356AF6200C52421 /* background.png */,
+				9719B6C8135578E900C52421 /* burger.png */,
+				9719B6C9135578E900C52421 /* coffee.png */,
+				9719B6CA135578E900C52421 /* colddrink.png */,
+				9719B6CB135578E900C52421 /* cookies.png */,
+				9719B6CC135578E900C52421 /* juice.png */,
+				9719B6CD135578E900C52421 /* liquor.png */,
+				9719B6CE135578E900C52421 /* pizza.png */,
+				9719B6CF135578E900C52421 /* tea.png */,
+				9719B6D0135578E900C52421 /* water.png */,
+			);
+			name = images;
+			path = EditableGridView/images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9719B69D135572B400C52421 /* EditableGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9719B6BF135572B500C52421 /* Build configuration list for PBXNativeTarget "EditableGridView" */;
+			buildPhases = (
+				9719B69A135572B400C52421 /* Sources */,
+				9719B69B135572B400C52421 /* Frameworks */,
+				9719B69C135572B400C52421 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EditableGridView;
+			productName = EditableGridView;
+			productReference = 9719B69E135572B400C52421 /* EditableGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9719B695135572B400C52421 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9719B698135572B400C52421 /* Build configuration list for PBXProject "EditableGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9719B693135572B400C52421;
+			productRefGroup = 9719B69F135572B400C52421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9719B69D135572B400C52421 /* EditableGridView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9719B69C135572B400C52421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9719B6AD135572B400C52421 /* InfoPlist.strings in Resources */,
+				9719B6B6135572B400C52421 /* MainWindow.xib in Resources */,
+				9719B6BC135572B400C52421 /* RootViewController.xib in Resources */,
+				9719B6C6135572FC00C52421 /* CustomTableViewCell.xib in Resources */,
+				9719B6D1135578E900C52421 /* burger.png in Resources */,
+				9719B6D2135578E900C52421 /* coffee.png in Resources */,
+				9719B6D3135578E900C52421 /* colddrink.png in Resources */,
+				9719B6D4135578E900C52421 /* cookies.png in Resources */,
+				9719B6D5135578E900C52421 /* juice.png in Resources */,
+				9719B6D6135578E900C52421 /* liquor.png in Resources */,
+				9719B6D7135578E900C52421 /* pizza.png in Resources */,
+				9719B6D8135578E900C52421 /* tea.png in Resources */,
+				9719B6D9135578E900C52421 /* water.png in Resources */,
+				9719B6DB1356AF6200C52421 /* background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9719B69A135572B400C52421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9719B6B0135572B400C52421 /* main.m in Sources */,
+				9719B6B3135572B400C52421 /* EditableGridViewAppDelegate.m in Sources */,
+				9719B6B9135572B400C52421 /* RootViewController.m in Sources */,
+				9719B6C5135572FC00C52421 /* CustomTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9719B6AB135572B400C52421 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9719B6AC135572B400C52421 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9719B6B4135572B400C52421 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9719B6B5135572B400C52421 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9719B6BA135572B400C52421 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9719B6BB135572B400C52421 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9719B6BD135572B500C52421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9719B6BE135572B500C52421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9719B6C0135572B500C52421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditableGridView/EditableGridView-Prefix.pch";
+				INFOPLIST_FILE = "EditableGridView/EditableGridView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9719B6C1135572B500C52421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditableGridView/EditableGridView-Prefix.pch";
+				INFOPLIST_FILE = "EditableGridView/EditableGridView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9719B698135572B400C52421 /* Build configuration list for PBXProject "EditableGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9719B6BD135572B500C52421 /* Debug */,
+				9719B6BE135572B500C52421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9719B6BF135572B500C52421 /* Build configuration list for PBXNativeTarget "EditableGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9719B6C0135572B500C52421 /* Debug */,
+				9719B6C1135572B500C52421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9719B695135572B400C52421 /* Project object */;
+}
